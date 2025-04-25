@@ -62,7 +62,7 @@ variable "req_upper_char" {
   type = bool
 }
 
-variable "require_symbols" {
+variable "req_symbols" {
   type = bool
 }
 
