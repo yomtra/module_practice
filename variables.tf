@@ -11,6 +11,18 @@ variable "users_3" {
   type = number
 }
 
+variable "users_1_name" {
+  type = string
+}
+
+variable "users_2_name" {
+  type = string
+}
+
+variable "users_3_name" {
+  type = string
+}
+
 variable "group_1_name" {
   type = string
 }
