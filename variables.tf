@@ -46,3 +46,26 @@ variable "group_2_policy_arn" {
 variable "group_3_policy_arn" {
   type = string
 }
+
+variable "min_pass_length" {
+  type = string
+}
+
+variable "req_lower_char" {
+  type = bool
+}
+
+variable "req_numbers" {
+  type = bool
+}
+variable "req_upper_char" {
+  type = bool
+}
+
+variable "require_symbols" {
+  type = bool
+}
+
+variable "allow_pass_change" {
+  type = bool
+}
